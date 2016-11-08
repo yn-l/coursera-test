@@ -47,7 +47,6 @@
         service.boughtItems = [];
 
         service.buyItem = function(itemIndex) {
-            console.log("itemIndex = ", itemIndex);
             var item = service.toBuyItems[itemIndex];
             service.addItem(service.boughtItems, item)
             service.removeItem(service.toBuyItems, itemIndex);
